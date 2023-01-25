@@ -1,0 +1,6 @@
+netstat -ano | findstr 8080
+
+
+Step 2: Open command prompt as administrator and kill the process
+
+taskkill /F /pid 1088
